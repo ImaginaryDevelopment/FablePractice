@@ -21,8 +21,10 @@ paket init
 ```
 
 create the paketadd.cmd file for convenience
+I'm not sure if the --force was needed or not
 
 ```bat
+paket convert-from-nuget --force
 paketadd.cmd Fable.react
 ```
 

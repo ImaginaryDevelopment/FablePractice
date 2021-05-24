@@ -1,2 +1,5 @@
 source https://www.nuget.org/api/v2
+nuget Fable.Browser.Dom 2.2.0
+nuget Fable.Core 3.2.3
 nuget Fable.react
+nuget FSharp.Core
