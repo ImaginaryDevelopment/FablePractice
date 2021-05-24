@@ -1,4 +1,34 @@
-# Fable Minimal App
+# setup
+
+dotnet new -i "Fable.Template::*"
+add .gitignore from some other fable project found online [https://raw.githubusercontent.com/ImaginaryDevelopment/Fable.Static/master/.gitignore](here)
+
+```bat
+cd ./src
+dotnet build
+cd ..
+dotnet tool restore
+npm start
+```
+
+at this point the project should be up and running on 8080
+
+## preparing to add fable-react
+
+```bat
+dotnet tool install paket
+paket init
+```
+
+create the paketadd.cmd file for convenience
+
+```bat
+paketadd.cmd Fable.react
+```
+
+## Begin Fable's standard readme
+
+## Fable Minimal App
 
 This is a small Fable app project so you can easily get started and add your own code easily in it.
 

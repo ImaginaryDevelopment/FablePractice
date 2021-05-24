@@ -1,0 +1,1 @@
+paket add %1 --project .\src\App.fsproj
