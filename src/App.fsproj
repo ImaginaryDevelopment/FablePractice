@@ -4,6 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Imports/MaterialUI/MaterialUI.fs" />
+    <Compile Include="Imports/MaterialUI/OverrideableComponent.fs" />
+    <Compile Include="Imports/MaterialUI/MaterialUI-Grid.fs" />
+    <Compile Include="Imports/*.fs" />
+    <Compile Include="BooksListMock.fs" />
+    <Compile Include="StudentsListMock.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,11 @@ create the paketadd.cmd file for convenience
 
 ```bat
 paketadd.cmd Fable.react
+npm install @material-ui/core
+npm install -g ts2fable
+ts2fable node_modules\@material-ui\core\Grid\Grid.d.ts src/Imports/MaterialUI-Grid.fs
+ts2fable node_modules\@material-ui\types\index.d.ts src/Imports/MaterialUI.fs
+
 ```
 
 ## Begin Fable's standard readme
